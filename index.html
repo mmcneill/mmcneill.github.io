@@ -16,10 +16,10 @@
             <div class="main-content">
                 <p class="intro-text">Hi, I'm <span class="name">Melissa</span></p>
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/melissalmcneill/" target="_blank" class="linkedin">
+                    <a href="https://www.linkedin.com/in/melissalmcneill/" target="_blank" rel="noopener noreferrer" class="linkedin">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://github.com/mmcneill" target="_blank" class="github">
+                    <a href="https://github.com/mmcneill" target="_blank" rel="noopener noreferrer" class="github">
                         <i class="fab fa-github"></i>
                     </a>
                 </div>
@@ -34,20 +34,21 @@
             <div class="about-content">
                 <img src="images/about_me.jpg" alt="Your Photo" class="profile-photo">
                 <div class="about-text">
-                    <p>I'm a data scientist who's passionate about applying machine learning and data-driven methods to enhance the safety and well-being of vulnerable individuals. I hold a <b>BS in Computer Science from Texas A&M University</b> and an <b>MS in Data Science and Machine Learning from Northwestern University</b>. I am currently based in Austin, TX.</p>
+                    <p>I'm a data scientist who's passionate about applying machine learning and data-driven methods to enhance safety and well-being. I hold a <b>BS in Computer Science from Texas A&M University</b> and an <b>MS in Data Science and Machine Learning from Northwestern University</b>. After starting my career in New York City, I am now based in Austin, TX.</p>
                     <br>
                     <p>For the past eight years, I’ve worked at the <b>University of Chicago Crime Lab</b>, where I build and evaluate machine learning models aimed at reducing gun violence and advancing justice. My projects often involve designing and testing <b>prediction models</b> that are accurate, fair, and tailored to their real-world use case. I also work on <b>impact evaluations</b> of violence-reduction interventions, using both randomized control trials and quasi-experimental methods.</p>
                     <br>
-                    <p>Additionally, I maintain <b>Name Match</b>, an <b>open-source probabilistic record linkage library</b> that combines machine learning with user-defined constraint logic to accurately and efficiently link records that refer to the same individual.</p>
+                    <p>Additionally, I maintain <b>Name Match</b>, an <b>open-source probabilistic record linkage library</b> that combines machine learning with user-defined constraints to accurately and efficiently link records that refer to the same individual.</p>
                     <br>
                     <p>My expertise includes:
                         <li>Translating real-world problems into research questions and <b>testable hypotheses</b></li>
                         <li>Designing <b>clean, reproducible, and scalable</b> data pipelines</li>
-                        <li><b>Predictive modeling</b> and <b>causal inference</b></li>
+                        <li><b>Predictive modeling</b>, <b>causal inference</b>, and <b>record linkage</b></li>
                         <li>Recognizing and <b>debugging</b> suspicious code and outputs</li>
                         <li><b>Mentorship</b>, team leadership, and managing deliverables</li></p>
+                        <li><b>Programming</b> in python, R, and SQL</li></p>
                     <br>
-                    <p>I'm always excited to explore new ways to apply data science for social impact. Feel free to reach out!</p>
+                    <p>I'm always excited to explore new ways to apply data science for social impact. Feel free to <a href="https://www.linkedin.com/in/melissalmcneill/" target="_blank" rel="noopener noreferrer">reach out</a>!</p>
                 </div>
             </div>
         </div>
@@ -59,23 +60,46 @@
             <h2>Work Projects</h2>
             <div class="projects-list">
                 <div class="project-item" style="background-image: url('images/tree.png');">
-                    <a href="coming_soon.html">Pretrial Risk Assessment<br/>with New Jersey Courts</a>
+                    <a href="new_jersey.html">Predictive Modeling:<br>Pretrial Risk Assessment in NJ</a>
                 </div>
                 <div class="project-item" style="background-image: url('images/record_linkage.png');">
-                    <a href="coming_soon.html">Name Match<br/>Probabilistic Record Linkage</a>
+                    <a href="name_match.html">Probabilistic Record Linkage:<br>Name Match</a>
                 </div>
                 <div class="project-item" style="background-image: url('images/evaluation.png');">
-                    <a href="coming_soon.html">READI Chicago Evaluation</a>
+                    <a href="readi.html">RCT Evaluation:<br>READI Chicago</a>
                 </div>
                 <div class="project-item" style="background-image: url('images/evaluation.png');">
-                    <a href="coming_soon.html">Kewanee Reentry Center Evaluation</a>
+                    <a href="kewanee.html">RCT Evaluation:<br>Kewanee Reentry Center</a>
                 </div>
                 <div class="project-item" style="background-image: url('images/evaluation.png');">
-                    <a href="coming_soon.html">Pretrial Risk Assessment Evaluation in NYC</a>
+                    <a href="cja.html">Experminal Evaluation:<br>NYC Pretrial Risk Assessment</a>
                 </div>
                 <div class="project-item" style="background-image: url('images/tree.png');">
-                    <a href="coming_soon.html">Predicting Domestic Violence Victimization in NYC</a>
+                    <a href="nyc_dv.html">Predictive Modeling:<br>Domestic Violence in NYC</a>
                 </div>
+                <div class="project-item" style="background-image: url('images/tree.png');">
+                    <a href="spra.html">Predictive Modeling:<br>Targeting Services in Chicago</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pubs" class="section">
+        <h2>Publications</h2>
+        <div class="pubs-content">
+            <div class="pubs-text">
+                <p>S. Tahamont, Z. Jelveh, M. McNeill, et al. “No Ground Truth? No Problem: Improving Administrative Data Linking Using Active Learning and a Little Bit of Guile.” April 2023. PLOS ONE 18(4): e0283811. <a href="https://doi.org/10.1371/journal.pone.0283811" target="_blank" rel="noopener noreferrer">https://doi.org/10.1371/journal.pone.0283811</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pubs" class="section">
+        <h2>Conference Talks</h2>
+        <div class="pubs-content">
+            <div class="pubs-text">
+                <p>“Customizable probabilistic record linkage with Name Match.” PyData NYC, November 2022. <a href="https://www.youtube.com/watch?v=X2ybXs-8wmA" target="_blank">Watch talk.</a></p>
+                <br>
+                <p>“Operationalizing Outcome Selection in Risk Assessments.” The American Society of Criminology, 2022.</p>
             </div>
         </div>
     </section>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Name Match</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Content Section -->
+    <section id="projectpagemain">
+        <div class="container">
+            <div class="main-content">
+                <p class="intro-text">Name Match</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview Section -->
+    <section id="projectpage" class="section">
+        <div class="container">
+            <h2>Project Overview</h2>
+            <div class="projectpage-content">
+                <div class="projectpage-text">
+                    <p>One of the toughest and most common challenges in social science research is identifying records that refer to the same person. This is necessary when <strong>linking</strong> multiple datasets together (i.e. to determine which individuals in dataset A appear in dataset B) and when <strong>deduplicating</strong> a single dataset (i.e. to determine how many times a given person appears in dataset A). If any of the datasets involved are missing a unique person identifier (like social security number), typos, nicknames, name changes, and common names make this a surprisingly tricky problem.</p>
+                    <br>
+                    <p>To solve this, I helped develop Name Match, an <strong>open-source Python package</strong> that uses machine learning and user-defined constraints to efficiently match records across datasets with high accuracy. It compares fields like name, date of birth, address, and more, while giving users the flexibility to define what invalid matches looks like for their specific project.</p>
+                    <br>
+                    <p>At the Crime Lab, we've used Name Match to link records in several major predictive tasks and evaluations, including <a href="https://crimelab.uchicago.edu/projects/readi/" target="_blank" rel="noopener noreferrer">READI Chicago</a> and <a href="https://crimelab.uchicago.edu/projects/one-summer-chicago-plus/" rel="noopener noreferrer" target="_blank">One Summer Chicago</a>. In 2023, we released Name Match on <a href="https://github.com/urban-labs/namematch" target="_blank" rel="noopener noreferrer">GitHub</a> so other researchers and public sector teams can use it in their own work and directly contribute to its improvement. You can read more about the project on the Crime Lab website <a href="https://crimelab.uchicago.edu/projects/name-match/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+                </div>
+            </div>
+            <h2>My Role</h2>
+            <div class="projectpage-content">
+                <div class="projectpage-text">
+                    <p>As an intern at the Crime Lab in Summer 2016, I was tasked with transforming an early prototype of probabilistic record linkage code—originally designed to link police records for the <a href="nyc_dv.html" target="_blank">Domestic Violence in NYC</a> project—into a flexible and performant Python tool for use in future Crime Lab projects. After joining the Crime Lab full-time in January 2017, I became the <strong>primary developer</strong> of the tool, now known as Name Match.</p>
+                    <br>
+                    <p>My responsibilities included designing and implementing new features, improving model accuracy, fixing bugs, and overseeing a data engineer's performance optimization efforts. I also <i>used</i> Name Match to perform record linkage for various Crime Lab projects, delivering linked datasets to research teams as needs arose. As internal demand grew, I focused on enhancing usability, writing documentation, tutorials, and user guides, and presenting training materials to colleagues. Eventually, I led efforts to open-source Name Match on GitHub, making it accessible to external researchers.</p>
+                    <br>
+                    <p>Separately, I've leveraged my expertise in record linkage to quantify the value of having labeled data when using off-the-shelf record linkage tools. Together with co-authors Zubin Jelveh, Sarah Tahamont, Shi Yan, Aaron Chalfin, and Benjamin Hansen, we published <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0283811" target="_blank" rel="noopener noreferrer"><i>No Ground Truth? No Problem: Improving administrative data linking using active learning and a little bit of guile</i></a> to show that researchers can achieve high-quality linkage results with relatively few labeled examples of matching and non-matching records.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Links Section -->
+    <section id="projectpagelinks" class="section">
+        <div class="container">
+            <h2>Find Out More</h2>
+            <div class="links-grid">
+                <a href="https://github.com/urban-labs/namematch" target="_blank" rel="noopener noreferrer" class="link-card">
+                    <span>GitHub Repo</span>
+                </a>
+                <a href="https://urban-labs.github.io/namematch/" target="_blank" rel="noopener noreferrer" class="link-card">
+                    <span>Documentation</span>
+                </a>
+                <a href="https://crimelab.uchicago.edu/resources/melissa-mcneill-customizable-probabilistic-record-linkage-with-name-match-pydata-nyc-2022/" target="_blank" rel="noopener noreferrer" class="link-card">
+                    <span>PyData 2023 Presentation</span>
+                </a>
+                <a href="https://crimelab.uchicago.edu/projects/name-match/" target="_blank" rel="noopener noreferrer" class="link-card">
+                    <span>Crime Lab<br>Project Page</span>
+                </a>
+                <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0283811" target="_blank" rel="noopener noreferrer" class="link-card">
+                    <span>PLOS One<br>Publication</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+</body>
+</html>
